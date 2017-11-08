@@ -41,7 +41,7 @@ public class RandomTests
 			}
 		}
 		
-		System.out.println(" --- Test Random Int 0-["+max+"] --- ");
+		System.out.println(" --- Testin Random Int 0-["+max+"] --- ");
 		System.out.println("Min Created: [" + minCreated + "]");
 		System.out.println("Max Created: [" + maxCreated + "]");
 		System.out.println("Average: ["+(1f * sum / iterationCount)+"]");
@@ -84,7 +84,7 @@ public class RandomTests
 			}
 		}
 		
-		System.out.println(" --- Test Random Int ["+min+"]-["+max+"] --- ");
+		System.out.println(" --- Testin Random Int ["+min+"]-["+max+"] --- ");
 		System.out.println("Min Created: [" + minCreated + "]");
 		System.out.println("Max Created: [" + maxCreated + "]");
 		System.out.println("Average: ["+(1f * sum / iterationCount)+"]");
@@ -126,7 +126,7 @@ public class RandomTests
 			}
 		}
 		
-		System.out.println(" --- Test Random Double 0.0-["+max+"] --- ");
+		System.out.println(" --- Testin Random Double 0.0-["+max+"] --- ");
 		System.out.println("Min Created: [" + minCreated + "]");
 		System.out.println("Max Created: [" + maxCreated + "]");
 		System.out.println("Average: ["+(1f * sum / iterationCount)+"]");
@@ -169,7 +169,7 @@ public class RandomTests
 			}
 		}
 		
-		System.out.println(" --- Test Random Double ["+min+"]-["+max+"] --- ");
+		System.out.println(" --- Testin Random Double ["+min+"]-["+max+"] --- ");
 		System.out.println("Min Created: [" + minCreated + "]");
 		System.out.println("Max Created: [" + maxCreated + "]");
 		System.out.println("Average: ["+(1f * sum / iterationCount)+"]");

@@ -68,6 +68,8 @@ public class CyclicList<T> implements Cyclic<T>
 		node = nodes.get(0);
 	}
 	
+	protected CyclicList() {}
+	
 	/**
 	 * Gets the current value of the List
 	 *
