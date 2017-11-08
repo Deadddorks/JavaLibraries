@@ -68,6 +68,9 @@ public class CyclicList<T> implements Cyclic<T>
 		node = nodes.get(0);
 	}
 	
+	/**
+	 * Allows extending classes to have have to call the constructor with arguments if they choose
+	 */
 	protected CyclicList() {}
 	
 	/**
