@@ -1,6 +1,7 @@
 package javaLibraries.util.strings;
 
 // ~~~~~~~~~~ Imports ~~~~~~~~~~
+import javaLibraries.constants.Alignment;
 import javaLibraries.util.strings.exceptions.StringLongerThanLengthException;
 import java.security.InvalidParameterException;
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -13,16 +14,6 @@ import java.security.InvalidParameterException;
  */
 public class StringFormatter
 {
-	
-	// ~~~~~~~~~~ Constants ~~~~~~~~~~
-	/**
-	 * enum used to specify the alignment of the resulting formatted String
-	 */
-	public enum Alignment
-	{
-		LEFT, CENTER, RIGHT
-	}
-	// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 	
 	/**
 	 * Private constructor to disable instantiation

@@ -5,7 +5,7 @@ import org.junit.Test;
 import java.security.InvalidParameterException;
 
 import static org.junit.Assert.*;
-import static javaLibraries.util.strings.StringFormatter.Alignment.*;
+import static javaLibraries.constants.Alignment.*;
 
 public class StringFormatterTests
 {
