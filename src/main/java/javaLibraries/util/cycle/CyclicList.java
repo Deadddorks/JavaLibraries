@@ -16,10 +16,6 @@ import java.util.List;
 public class CyclicList<T> implements Cyclic<T>
 {
 	
-	// ----- Label -----
-	// ~~~~~~~~~~ Constants ~~~~~~~~~~
-	
-	// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 	// ~~~~~~~~~~ Variables ~~~~~~~~~~
 	private Node node;
 	

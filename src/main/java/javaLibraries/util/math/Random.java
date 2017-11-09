@@ -4,7 +4,6 @@ package javaLibraries.util.math;
 import javaLibraries.util.math.exceptions.InvalidRangeException;
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-
 /**
  * Used to easily generate random values within a range
  *
@@ -13,14 +12,6 @@ import javaLibraries.util.math.exceptions.InvalidRangeException;
  */
 public class Random
 {
-	
-	// ----- Label -----
-	// ~~~~~~~~~~ Constants ~~~~~~~~~~
-	
-	// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-	// ~~~~~~~~~~ Variables ~~~~~~~~~~
-	
-	// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 	
 	/**
 	 * Private constructor to deny creating an Instance of this Class

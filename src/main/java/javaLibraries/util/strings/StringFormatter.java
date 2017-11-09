@@ -14,9 +14,7 @@ import java.security.InvalidParameterException;
 public class StringFormatter
 {
 	
-	// ----- Label -----
 	// ~~~~~~~~~~ Constants ~~~~~~~~~~
-	
 	/**
 	 * enum used to specify the alignment of the resulting formatted String
 	 */
@@ -24,9 +22,6 @@ public class StringFormatter
 	{
 		LEFT, CENTER, RIGHT
 	}
-	// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-	// ~~~~~~~~~~ Variables ~~~~~~~~~~
-	
 	// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 	
 	/**

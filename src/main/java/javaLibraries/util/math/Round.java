@@ -13,14 +13,6 @@ import java.security.InvalidParameterException;
 public class Round
 {
 	
-	// ----- Label -----
-	// ~~~~~~~~~~ Constants ~~~~~~~~~~
-	
-	// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-	// ~~~~~~~~~~ Variables ~~~~~~~~~~
-	
-	// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-	
 	/**
 	 * Private constructor to deny creating an Instance of this Class
 	 */

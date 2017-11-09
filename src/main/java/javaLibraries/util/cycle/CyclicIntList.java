@@ -15,10 +15,6 @@ import javaLibraries.util.cycle.exceptions.InvalidLoopSizeException;
 public class CyclicIntList extends CyclicList<Integer>
 {
 	
-	// ----- Label -----
-	// ~~~~~~~~~~ Constants ~~~~~~~~~~
-	
-	// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 	// ~~~~~~~~~~ Variables ~~~~~~~~~~
 	private int min;
 	private int max;
