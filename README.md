@@ -1,6 +1,8 @@
 # JavaLibraries
 Useful methods that could be implemented into a wide variety of Java Projects.  
 ## util
+### arrays
+ArrayToString - Methods for formatting 1D and 2D arrays into Strings
 ### cycle
 CyclicList - A variation on LinkedLists where going out of bounds through
 the top or bottom will pop you out on the other side  
