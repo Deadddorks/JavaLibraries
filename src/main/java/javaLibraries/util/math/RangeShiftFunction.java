@@ -9,14 +9,13 @@ import java.util.function.Function;
  * Allows conversion from one range to another, allows converting from a -> b & b -> 1
  *
  * @author Deaddorks
- * @version 1.0
+ * @version 1.1
  */
 public class RangeShiftFunction
 {
 	
 	// ~~~~~~~~~~ Variables ~~~~~~~~~~
-	private final Function<Double, Double> oldToNewFunction;
-	private final Function<Double, Double> newToOldFunction;
+	private final double oldMin, oldMax, newMin, newMax;
 	// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 	
 	/**
@@ -33,8 +32,10 @@ public class RangeShiftFunction
 			throw new InvalidParameterException("Can not have a range of 0.");
 		}
 		
-		oldToNewFunction = d -> (d - oldMin) * (newMax - newMin) / (oldMax - oldMin) + newMin;
-		newToOldFunction = d -> (d - newMin) * (oldMax - oldMin) / (newMax - newMin) + oldMin;
+		this.oldMin = oldMin;
+		this.oldMax = oldMax;
+		this.newMin = newMin;
+		this.newMax = newMax;
 	}
 	
 	/**
@@ -44,7 +45,7 @@ public class RangeShiftFunction
 	 */
 	public double oldToNew(final double d)
 	{
-		return oldToNewFunction.apply(d);
+		return (d - oldMin) * (newMax - newMin) / (oldMax - oldMin) + newMin;
 	}
 	/**
 	 * Converts a number from the new range to the old range
@@ -53,7 +54,7 @@ public class RangeShiftFunction
 	 */
 	public double newToOld(final double d)
 	{
-		return newToOldFunction.apply(d);
+		return (d - newMin) * (oldMax - oldMin) / (newMax - newMin) + oldMin;
 	}
 	
 }
