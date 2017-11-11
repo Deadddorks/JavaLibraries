@@ -15,7 +15,7 @@ public class RangeShiftFunction
 {
 	
 	// ~~~~~~~~~~ Variables ~~~~~~~~~~
-	private final double oldMin, oldMax, newMin, newMax;
+	private final float oldMin, oldMax, newMin, newMax;
 	// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 	
 	/**
@@ -25,7 +25,7 @@ public class RangeShiftFunction
 	 * @param newMin min of new range
 	 * @param newMax max of new range
 	 */
-	public RangeShiftFunction(final double oldMin, final double oldMax, final double newMin, final double newMax)
+	public RangeShiftFunction(final float oldMin, final float oldMax, final float newMin, final float newMax)
 	{
 		if (oldMax - oldMin == 0 || newMax - newMin == 0)
 		{
@@ -43,7 +43,7 @@ public class RangeShiftFunction
 	 * @param d number to be converted
 	 * @return the converted value
 	 */
-	public double oldToNew(final double d)
+	public float oldToNew(final float d)
 	{
 		return (d - oldMin) * (newMax - newMin) / (oldMax - oldMin) + newMin;
 	}
@@ -52,7 +52,7 @@ public class RangeShiftFunction
 	 * @param d number to be converted
 	 * @return the converted value
 	 */
-	public double newToOld(final double d)
+	public float newToOld(final float d)
 	{
 		return (d - newMin) * (oldMax - oldMin) / (newMax - newMin) + oldMin;
 	}
