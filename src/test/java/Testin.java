@@ -1,15 +1,15 @@
-import javaLibraries.util.time.Time;
-import javaLibraries.util.time.Timer;
+import javaLibraries.systemInfo.SystemInfo;
+import org.apache.commons.lang.StringEscapeUtils;
 
 public class Testin
 {
 
 	public Testin()
 	{
-		Timer timer = new Timer();
-		timer.start();
-		Time.sleep(1000);
-		System.out.println(timer.read());
+		for (char c : SystemInfo.getClipboardString().toCharArray())
+		{
+			System.out.println("\""+Character.toString(c)+"\" ("+c+") ["+Character.isDigit(c)+"]");
+		}
 	}
 	
 	public static void main(String[] args)
