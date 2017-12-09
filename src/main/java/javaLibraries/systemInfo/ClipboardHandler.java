@@ -11,6 +11,11 @@ import java.awt.datatransfer.UnsupportedFlavorException;
 import java.io.IOException;
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+/**
+ * Add and retrieve Strings to the clipboard
+ *
+ * @author Deaddorks
+ */
 public class ClipboardHandler implements ClipboardOwner
 {
 	

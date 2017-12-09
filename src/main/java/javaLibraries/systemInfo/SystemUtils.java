@@ -6,7 +6,12 @@ import java.awt.MouseInfo;
 import java.awt.Toolkit;
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-public class SystemInfo
+/**
+ * Utilities for accessing System data
+ *
+ * @author Deaddorks
+ */
+public class SystemUtils
 {
 	
 	// ~~~~~~~~~~ Constants ~~~~~~~~~~
@@ -16,7 +21,7 @@ public class SystemInfo
 	
 	// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 	
-	private SystemInfo() {}
+	private SystemUtils() {}
 	
 	public static ScreenLocation getCurrentMousePosition()
 	{
