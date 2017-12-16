@@ -8,11 +8,23 @@
     <artifactId>JavaLibraries</artifactId>
     <version>1.0</version>
 
+    <repositories>
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+        </repository>
+    </repositories>
+
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.12</version>
+        </dependency>
+        <dependency>
+            <groupId>com.github.Deadddorks</groupId>
+            <artifactId>JavaTestClasses</artifactId>
+            <version>v1.0</version>
         </dependency>
     </dependencies>
 
